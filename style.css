@@ -1,0 +1,408 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    padding: 0;
+    margin: 0;
+    /* width: 100%;
+  min-height: 100vh;
+  overflow: hidden; */
+}
+
+
+ img
+{
+    position: absolute;
+    width: 100%;
+    /* height: 300%; */
+    /* height: -10%; */
+}
+
+.left 
+{
+    /* font-size: xx-large; */
+    position: absolute;
+    width: 12%;
+    margin-top: 2%;
+    margin-left: 3%;
+    /* color: white; */
+
+}
+
+.right
+{
+    position: absolute;
+    right: 5%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.right h3
+{
+    padding: 15px 15px;
+    color: white;
+}
+
+.right h3 span
+{
+    /* border: 1px solid; */
+    color: black;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: white;
+}
+
+
+.images {
+    position: absolute;
+    width: 2%;
+    top: 57%;
+    left: 48%;
+}
+
+.head
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: 60px;
+}
+
+
+
+.text1
+{
+    display: inline;
+}
+
+.text1 img
+{width: 50%;
+    top: 119.8%;
+    height: 50.6%;
+    right: 0px;
+}
+
+.text1 p
+{
+    position: absolute;
+    bottom: -55%;
+    width: 26%;
+    left: 8%;
+    color: grey;
+    font-size: large;
+}
+
+.head1  
+{
+    position: absolute;
+    left: 8%;
+    width: 15%;
+    bottom: -40%;
+    font-size: 30px;
+}
+
+.text1 a
+{
+    position: absolute;
+    bottom: -60%;
+    left: 15%;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    box-shadow: 5px 5px rgb(248, 248, 161);
+}
+
+
+.text2
+{
+    display: inline;
+}
+
+.text2 img
+{width: 50%;
+    top: 170%;
+    height: 52.6%;
+    left: 0px;
+}
+
+.text2 p
+{
+    position: absolute;
+    bottom: -110%;
+    width: 26%;
+    right: 14%;
+    color: grey;
+    font-size: large;
+}
+
+.head2  
+{
+    position: absolute;
+    right: 12%;
+    width: 28%;
+    bottom: -95%;
+    font-size: 30px;
+}
+
+.text2 a
+{
+    position: absolute;
+    bottom: -115%;
+    right: 20%;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    box-shadow: 5px 5px rgb(248, 248, 161);
+}
+
+
+.text3
+{
+    display: inline;
+}
+
+.text3 img
+{width: 50%;
+    top: 222.5%;
+    height: 50.6%;
+    left: 0px;
+}
+
+.text3 p
+{
+    position: absolute;
+    bottom: -175%;
+    width: 26%;
+    left: 12%;
+    /* left: 50%; */
+    color: rgb(36, 36, 36);
+    font-size: large;
+    /* opacity: .21; */
+}
+
+.head3
+{
+    position: absolute;
+    /* opacity: 1; */
+    left: 17%;
+    width: 28%;
+    bottom: -165%;
+    font-size: 30px;
+}
+
+
+
+.text4
+{
+    display: inline;
+}
+
+.text4 img
+{width: 50%;
+    top: 222.5%;
+    height: 50.6%;
+    right: 0px;
+}
+
+.text4 p
+{
+    position: absolute;
+    bottom: -170%;
+    width: 26%;
+    right: 10%;
+    /* left: 50%; */
+    color: rgb(36, 36, 36);
+    font-size: large;
+    /* opacity: .21; */
+}
+
+.head4
+{
+    position: absolute;
+    /* opacity: 1; */
+    right: 2%;
+    width: 28%;
+    bottom: -160%;
+    font-size: 30px;
+}
+
+
+.footer 
+{
+    position: absolute;
+    left: 45%;
+    color: gray;
+    top: 290%;
+}
+
+
+.boxes
+{
+    border: 2px solid;
+    position: absolute;
+    top: 300%;
+    left: 15%;
+    width: 45%;
+    height: 50%;
+    color: white;
+    display: flex;
+    /* float: left; */
+    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+.box1
+{
+    /* position: absolute; */
+    float: left;
+    /* left: 15%; */
+    width: 42%;
+    height: 120%;
+    /* border: 1px solid hsl(31, 77%, 52%); */
+    border-radius: 10px;
+    /* background-color: hsl(31, 77%, 52%); */
+}
+
+.box1 h2
+{
+    margin-left: 20%;
+    margin-top: 25%;
+    /* position: absolute; */
+    float: left;
+    color: black;
+}
+
+.box1 p 
+{
+    margin-top: 45%;
+    margin-left: -10%;
+    /* position: absolute; */
+    width: 130%;
+    float: left;
+    font-size: large;
+    color: gray;
+}
+
+.heading1
+{
+    float: left;
+    /* bottom: -10%; */
+    margin-left: 0%;
+    margin-top: -10%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    /* background-color: white; */
+    font-size: medium;
+    color: gray;
+}
+
+.box1 img
+{
+    /* position: absolute; */
+    float: left;
+    margin-top: 5%;
+    margin-left:15% ;
+    width: 8%;
+    border-radius: 40px;
+}
+
+
+.box2
+{
+    position: absolute;
+    /* float: right; */
+    right: -75%;
+    width: 42%;
+    height: 120%;
+    /* border: 1px solid hsl(31, 77%, 52%); */
+    border-radius: 10px;
+    /* background-color: hsl(31, 77%, 52%); */
+}
+
+.box2 h2
+{
+    margin-right: 50%;
+    margin-top: 25%;
+    /* position: absolute; */
+    float: right;
+    color: black;
+}
+
+.box2 p 
+{
+    margin-top: 45%;
+    margin-left: -10%;
+    /* position: absolute; */
+    width: 130%;
+    float: right;
+    font-size: large;
+    color: gray;
+}
+
+.heading2
+{
+    /* float: right; */
+    /* bottom: -10%; */
+    margin-left: 5%;
+    position: absolute;
+    top: 72%;
+    /* width: 100%; */
+    /* border-radius: 20px; */
+    padding: 10px 20px;
+    /* border: 2px solid white; */
+    /* background-color: white; */
+    font-size: medium;
+    color: gray;
+}
+
+.box2 img
+{
+    position: absolute;
+    /* float: right; */
+    margin-top: 15%;
+    margin-left:15% ;
+    width: 18%;
+    border-radius: 40px;
+}
+
+
+
+.boxes1
+{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 290%;
+    left: -7%;
+    width: 25%;
+    height: 100%;
+    /* color: white; */
+}
+
+.boxe1
+{
+    position: relative;
+    float: left;
+    left: 15%;
+    max-width: 25%;
+    /* height: 120%; */
+    /* border: 1px solid hsl(31, 77%, 52%); */
+    border-radius: 10px;
+    /* background-color: hsl(31, 77%, 52%); */
+}
+
+.boxe1 img
+{
+    /* position: absolute; */
+    position: relative;
+    float: left;
+    margin-top: 280%;
+    height: 35%;
+    /* width: 190%; */
+    margin-left:20% ;
+    object-fit: cover;
+}
